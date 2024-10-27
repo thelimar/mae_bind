@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mae"
+version = "1.0"
+requires-python = ">=3.8"
+['version']
+
+[tool.setuptools]
+packages = ["mae"]
+
+[tool.setuptools.package-data]
+mae = [
+    "/mnt/d/dz_ops/mae_bind/mae/python/mae.cpython-310-x86_64-linux-gnu.so"
+]
